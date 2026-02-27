@@ -262,11 +262,22 @@ main {
 
 .btn-secondary {
   background: white;
-  color: #16a34a;
+  color: #2556db;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondaryGreen {
+  background: white;
+  color: #1d8946;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .btn-secondary:hover {
+  background: #f9fafb;
+  transform: scale(1.05);
+}
+
+.btn-secondaryGreen:hover {
   background: #f9fafb;
   transform: scale(1.05);
 }
@@ -281,12 +292,13 @@ main {
 }
 
 .btn-amber {
-  background: #d97706;
-  color: white;
+  background: white;
+  color: #d97706;
 }
 
 .btn-amber:hover {
-  background: #b45309;
+  background: #f9fafb;
+  transform: scale(1.05);
 }
 
 /* === Sections === */
