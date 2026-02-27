@@ -797,3 +797,49 @@ footer {
     padding: 2rem 0;
   }
 }
+
+/* === FIX overflow numbered-card === */
+
+.numbered-card {
+  min-width: 0;
+  width: 100%;
+  flex-wrap: wrap; /* mag onder elkaar op klein scherm */
+}
+
+.numbered-card > * {
+  min-width: 0; /* laat content krimpen */
+}
+
+.numbered-card h3,
+.numbered-card p {
+  word-break: break-word;
+}
+
+/* FIX overflow zonder layout te veranderen */
+
+.grid-2,
+.grid-3 {
+  width: 100%;
+}
+
+.grid > * {
+  min-width: 0;
+}
+
+.service-card,
+.numbered-card {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Alleen mobiel iets compacter maken */
+@media (max-width: 768px) {
+  .service-card,
+  .numbered-card {
+    padding: 1.25rem; /* iets kleiner dan 2rem */
+  }
+}
+
+* {
+  outline: 1px solid red;
+}
