@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATLP - Tuin-, Landschaps- en Stedenbouwkundig Adviesbureau</title>
+  <meta name="description" content="Sinds 1993 uw partner in tuin- en landschapsontwerp. ATLP is een onafhankelijk ontwerp- en adviesbureau.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><img src="images/logo-atlp.svg" alt="ATLP"></span>
+      </a>
+      
+      <button class="mobile-menu-toggle" onclick="toggleMenu()" aria-label="Menu">
+        ☰
+      </button>
+      
+      <nav id="mainNav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="tuinen.html">Tuinen</a></li>
+          <li><a href="stedenbouw.html">Stedenbouw</a></li>
+          <li><a href="landschap.html">Landschap</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero hero-home">
+      <div class="hero-content">
+        <h1>Welkom bij ATLP</h1>
+        <p>Adviesbureau voor Tuin en LandschapsPlanning</p>
+        <a href="contact.html" class="btn btn-primary">Neem contact op</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-white">
+      <div class="container">
+        <div class="text-center mb-8">
+          <h2>Over ATLP</h2>
+          <p class="text-xl" style="max-width: 56rem; margin: 0 auto;">
+            Sinds 1993 is A.T.L.P. actief als <strong>onafhankelijk ontwerp- en adviesbureau</strong> op 
+            verschillende terreinen gaande van het oplossen van kleine tuinproblemen, het maken van 
+            tuinontwerpen tot het opstellen van landschapsplannen.
+          </p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="grid grid-3">
+          <a href="tuinen.html" class="card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1765182104977-3cd0dbac187c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBnYXJkZW4lMjBsYW5kc2NhcGUlMjBkZXNpZ258ZW58MXx8fHwxNzcyMTg1MDU4fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Tuinen">
+              <div class="card-overlay" style="background: linear-gradient(to top, rgba(5, 46, 22, 0.9), rgba(5, 46, 22, 0.4), transparent);"></div>
+            </div>
+            <div class="card-content">
+              <h3>Tuinen</h3>
+              <p style="color: #d1d5db; font-size: 0.875rem;">Stadstuinen, landschapstuinen, watertuinen en meer in allerhande stijlen</p>
+            </div>
+          </a>
+
+          <a href="stedenbouw.html" class="card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1760381587423-d56d2701c3df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMHBsYW5uaW5nJTIwY2l0eSUyMHNxdWFyZXxlbnwxfHx8fDE3NzIxODUwNTh8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Stedenbouw">
+              <div class="card-overlay" style="background: linear-gradient(to top, rgba(30, 58, 138, 0.9), rgba(30, 58, 138, 0.4), transparent);"></div>
+            </div>
+            <div class="card-content">
+              <h3>Stedenbouw</h3>
+              <p style="color: #d1d5db; font-size: 0.875rem;">Straten, pleinen, parken en duurzame stedelijke oplossingen</p>
+            </div>
+          </a>
+
+          <a href="landschap.html" class="card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1665523456890-4a3362b7b66c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYW5kc2NhcGUlMjBhcmNoaXRlY3R1cmUlMjBuYXR1cmV8ZW58MXx8fHwxNzcyMTg1MDU4fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Landschap">
+              <div class="card-overlay" style="background: linear-gradient(to top, rgba(120, 53, 15, 0.9), rgba(120, 53, 15, 0.4), transparent);"></div>
+            </div>
+            <div class="card-content">
+              <h3>Landschap</h3>
+              <p style="color: #d1d5db; font-size: 0.875rem;">Landschapsplannen, natuurcompensatie en groenstructuurplannen</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="section-gray">
+      <div class="container">
+        <h2 class="text-center mb-8">Onze Filosofie</h2>
+        
+        <div style="max-width: 80rem; margin: 0 auto;">
+          <div class="info-box">
+            <p class="text-xl mb-3">
+              Onze ontwerpen zijn <strong>aangepast aan de omgeving</strong>, de architectuur van 
+              gebouwen en de wensen en voorwaarden van de opdrachtgever.
+            </p>
+            <p class="text-xl">
+              De <strong>samenspraak met de opdrachtgever</strong> staat centraal in het ontwerpproces. 
+              Dit leidt tot unieke ontwerpen met creatieve oplossingen.
+            </p>
+          </div>
+
+          <div class="grid grid-3">
+            <div class="feature-card">
+              <div class="feature-icon">✓</div>
+              <h3>Eenvoud siert</h3>
+              <p>Heldere ontwerpen met een duidelijke structuur</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">✓</div>
+              <h3>Kwaliteit loont</h3>
+              <p>Op termijn altijd rendabel en duurzaam</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">✓</div>
+              <h3>Flexibele structuren</h3>
+              <p>Eenvoudige structuren verdragen wijzigende details</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section-green">
+      <div class="container text-center" style="position: relative; z-index: 1;">
+        <h2 style="font-size: 3rem;">Klaar om uw project te starten?</h2>
+        <p class="text-xl mb-4" style="max-width: 42rem; margin: 0 auto 2.5rem; color: #dcfce7;">
+          Neem contact met ons op voor een vrijblijvend gesprek over uw tuin-, 
+          stedenbouw- of landschapsproject.
+        </p>
+        <a href="contact.html" class="btn btn-secondary">Contacteer ons</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>ATLP</h3>
+        <p>Onafhankelijk ontwerp- en adviesbureau</p>
+        <p>Sinds 1993</p>
+      </div>
+      <div class="footer-section">
+        <h3>Navigatie</h3>
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tuinen.html">Tuinen</a></li>
+          <li><a href="stedenbouw.html">Stedenbouw</a></li>
+          <li><a href="landschap.html">Landschap</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <p>Bredestraat 12<br>2330 Merksplas<br>België</p>
+        <p class="mt-2">Tel: 014 63 57 63</p>
+        <p>Email: <a href="mailto:info@atlp.be">info@atlp.be</a></p>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <p>&copy; 2025 ATLP. Alle rechten voorbehouden.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('mainNav');
+      nav.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
