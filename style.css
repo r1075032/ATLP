@@ -31,7 +31,7 @@ a {
 header {
   background: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  position: auto;
+  position: relative;
   top: 0;
   z-index: 1000;
   border-bottom: 1px solid #e5e7eb;

@@ -15,9 +15,7 @@
         <span class="logo-icon"><img src="images/logo-atlp.svg" alt="ATLP"></span>
       </a>
       
-      <button class="mobile-menu-toggle" onclick="toggleMenu()" aria-label="Menu">
-        ☰
-      </button>
+      <button class="mobile-menu-toggle">☰</button>
       
       <nav id="mainNav">
         <ul>
@@ -248,5 +246,16 @@
       nav.classList.toggle('active');
     }
   </script>
+
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const knop = document.querySelector(".mobile-menu-toggle");
+  const menu = document.querySelector("nav");
+
+  knop.addEventListener("click", function () {
+    menu.classList.toggle("active");
+  });
+});
+</script>
 </body>
 </html>
