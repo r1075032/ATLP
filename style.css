@@ -854,3 +854,9 @@ footer {
     padding: 1.25rem; /* iets kleiner dan 2rem */
   }
 }
+
+@media (max-width: 360px) {
+  h2 {
+    font-size: 1.5rem !important;
+  }
+}
